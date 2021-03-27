@@ -22,4 +22,6 @@ bin/Release/net5.0/win-x86/publish
 
 Depending on the command you selected.
 
+If you have the release version you'll see that there is a .csv file, write in the first line the path of the emulator you want to use, if you have the compiled version, create a new .csv file and write there the path of the emulator.
+
 **WARNING**: Be sure you have the .NET 5.0 installed in your device
