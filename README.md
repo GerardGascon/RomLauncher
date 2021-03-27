@@ -1,4 +1,4 @@
-# RomExecuter
+# RomLauncher
 
 A basic program made using C# to automatically run the rom on the emulator when compiling in vs community.
 
