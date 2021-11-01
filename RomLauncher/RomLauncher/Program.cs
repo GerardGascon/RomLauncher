@@ -6,7 +6,7 @@ namespace RomLauncher{
 	class Program{
 		static void Main(){
 			string appliactionPath = Path.GetDirectoryName(AppContext.BaseDirectory);
-			string[] lines = File.ReadAllLines(appliactionPath + @"\emulatorPath.csv");
+			string[] lines = File.ReadAllLines(appliactionPath + @"\emulatorPath.txt");
 
 			DirectoryInfo di = new DirectoryInfo(appliactionPath);
 			appliactionPath = di.Parent.FullName + @"\out\rom.bin";
